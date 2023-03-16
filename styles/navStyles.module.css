@@ -1,0 +1,50 @@
+/* navStyles.module.css */
+.link{
+  text-decoration: none !important;
+}
+.navLink {
+
+  color: #ffffff !important;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  transition: color 0.3s ease;
+  font-size: 1.5rem; /* Add this line to increase the font size */
+  
+}
+
+.navLink:hover {
+  color: #f8f9fa !important;
+}
+
+.navLink:focus {
+  outline: none !important;
+}
+
+.navbar {
+  background-color: #98e6b3 !important;
+}
+
+.navbarWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.companyLogo {
+  height: 100px;
+  width: auto;
+  margin-left: 0;
+  margin-right: 0;
+  z-index: 1000;
+}
+
+.navbar {
+  flex-grow: 1;
+  margin-left: 15px;
+  min-height: 100px;
+}
+
+/* Add this selector */
+a.navLink {
+  text-decoration: none !important;
+  color: inherit !important;
+}
